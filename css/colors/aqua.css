@@ -1,0 +1,534 @@
+ /**
+ * Body
+ * ----------------------------------------------------------------------------
+ */
+body {
+	background-color: #1a1a1a;
+}
+
+/**
+ * Slider Caption
+ * ----------------------------------------------------------------------------
+ */
+.grve-slider-caption.grve-light {
+	color: #fff !important;
+}
+
+.grve-slider-caption.grve-dark {
+	color: #000 !important;
+}
+
+.grve-slider-caption .grve-dark-bg {
+	color: #fff !important;
+	background-color: rgba(0,0,0,0.3);
+}
+
+ /**
+ * Main Menu
+ * ----------------------------------------------------------------------------
+ */
+.grve-main-menu a {
+	color: #fff;
+}
+
+.grve-main-menu a:hover,
+.grve-main-menu .active > a ,
+.grve-main-menu .grve-current > a{
+	color: #24D1C4;
+}
+
+ /**
+ * Main Body
+ * ----------------------------------------------------------------------------
+ */
+#grve-theme-body  {
+	background-color: #FCFCFC;
+}
+
+/*-- Borders --*/
+.grve-tabs-title li ,
+.grve-pagination li a,
+.grve-latest-news li,
+.grve-latest-news li:before,
+.grve-popular-post li,
+.grve-second-menu li,
+.grve-custom-nav  ul  li,
+.grve-custom-nav .submenu,
+.grve-tags li a,
+.grve-horizontal-tab .grve-tabs-title,
+.grve-social li a,
+.grve-search-btn,
+.grve-archives li ,
+.grve-categories li ,
+.grve-contact-info li,
+.grve-widget.grve-comments li,
+.grve-blog-masonry .grve-post-content,
+.grve-blog-label .grve-post-wraper,
+.grve-blog-label .grve-post-content,
+.grve-filter li ,
+.grve-callout,
+.grve-pricing-table ul li,
+.grve-fields .grve-fields-title,
+.grve-header-style-2 .grve-menu,
+.grve-header-style-3 .grve-menu,
+.grve-portfolio-nav,
+.grve-portfolio-nav li,
+.grve-menu-responsive .grve-menu  li,
+.grve-accordion.grve-style-2 .grve-title,
+.grve-about-author,
+.grve-comment-content ,
+.grve-blog-label .grve-post-format,
+.grve-related-post .grve-filter,
+.grve-image-hover-icon ,
+#grve-topbar-responsive #grve-topbar-left ,
+#grve-topbar-responsive #grve-topbar-right,
+.grve-post-quote .grve-post-content ,
+.grve-post-link .grve-post-content,
+.grve-toggle.grve-style-2 .grve-title,
+.grve-section,
+.grve-pricing-table,
+.grve-team-social,
+.grve-team-item .grve-team-description,
+.grve-form-result.active,
+.grve-team-content,
+.grve-smallteam-item,
+.grve-smallteam-item .grve-smallteam-content,
+.grve-smallteam-item .grve-smallteam-social,
+.grve-icon-box:hover .grve-icon:after,
+.grve-bar,
+.grve-title-line:after,
+.grve-title-line:before,
+.grve-title-double-line:after,
+.grve-title-double-line:before,
+hr,
+code,
+table,
+tr,
+th,
+td,
+.grve-header-search,
+input[type='text'],
+input[type='input'],
+input[type='password'],
+input[type='email'],
+input[type='number'],
+input[type='url'],
+input[type='tel'],
+input[type='search'],
+textarea{
+	border-color: #e4e4e4 !important;
+}
+
+
+/*-- Primary Border --*/
+.grve-btn.grve-primary,
+.grve-btn.grve-secondary:hover,
+.grve-icon-box.grve-white-box .grve-icon {
+	border-color: #24D1C4;
+}
+
+.grve-btn.grve-primary:hover,
+.grve-btn.grve-secondary {
+	border-color: #1c2730 !important;
+}
+
+
+/*-- Primary Background --*/
+.grve-primary,
+.grve-btn.grve-secondary:hover,
+.grve-tabs-title li.active,
+.grve-tabs-title li.active:hover,
+.grve-pagination li a.current,
+.grve-accordion.grve-style-1 .grve-title.active:before,
+.grve-toggle.grve-style-1 .grve-title.active:before,
+.grve-accordion.grve-style-2 .grve-title.active,
+.grve-toggle.grve-style-2 .grve-title.active,
+.grve-filter li.selected,
+.grve-filter li.selected:hover,
+.grve-search-btn:hover,
+.grve-callout:before ,
+.grve-style-2 th,
+.grve-mobile .grve-style-2 td:first-child ,
+.grve-pricing-feature .grve-pricing-header,
+.grve-icon-box.grve-white-box .grve-icon,
+.grve-team-content:after,
+.grve-menu > li > a:after,
+.grve-icon-box:after,
+blockquote:before,
+.grve-page-title-primary-bg,
+.grve-menu-btn  ,
+.grve-close-btn ,
+.grve-carousel-btn,
+.grve-slider .flex-direction-nav li a  {
+	background-color: #24D1C4 !important;
+	color: #fff;
+}
+
+::selection {
+	background-color: #24D1C4;
+	color: #fff;
+}
+
+::-moz-selection {
+	background-color: #24D1C4;
+	color: #fff;
+}
+
+
+/*-- Primary Text --*/
+a,
+.grve-post-title:hover,
+.grve-blog-label-filter li.selected i,
+.grve-blockquote:before,
+.grve-latest-news .grve-title:hover,
+.grve-popular-post .grve-title:hover,
+.grve-second-menu li a:hover,
+.grve-single-post .grve-post-meta a:hover,
+.grve-custom-nav  ul  li a:hover,
+.grve-portfolio-title a:hover,
+.grve-list li:before ,
+.grve-archives a:hover,
+.grve-categories a:hover,
+.grve-portfolio-nav li a:hover,
+.grve-filter li:hover,
+.grve-related-post .grve-filter li.selected,
+.grve-related-post .grve-filter li:hover.selected,
+.grve-page-title .grve-post-meta span:before,
+.grve-fields .grve-fields-title:before,
+.grve-team-social li a,
+.grve-smallteam-item .grve-smallteam-social li a:hover,
+.grve-btn.grve-btn-line:hover,
+#grve-search-modal .grve-search-btn,
+.grve-hover-item a .grve-hover-title:before {
+	color: #24D1C4;
+}
+
+.grve-highlight,
+.grve-social.grve-social-large li a:hover,
+#grve-share-modal .grve-social li a:hover {
+	color: #24D1C4 !important;
+}
+
+/*-- Primary Text Hover --*/
+a:hover,
+.grve-team-social li a:hover{
+	color: #1c2730;
+}
+
+/*-- Primary Background Hover--*/
+.grve-secondary,
+#grve-header,
+.grve-carousel figcaption,
+.grve-btn.grve-primary:hover,
+.grve-blog .grve-media,
+.grve-blog-masonry .grve-media,
+.grve-tags li a:hover,
+.grve-social li a:hover,
+.grve-tabs-title li:hover,
+.grve-blog-label .grve-post-wraper:hover .grve-post-format:after,
+.grve-pagination li a:hover {
+	background-color: #1c2730 !important;
+	color: #fff !important;
+}
+
+/*-- Light Background --*/
+.grve-tabs-title li,
+.grve-accordion.grve-style-1 .grve-title:before,
+.grve-toggle.grve-style-1 .grve-title:before,
+.grve-accordion.grve-style-2 .grve-title,
+.grve-toggle.grve-style-2 .grve-title ,
+.grve-bar,
+.grve-comment-content,
+.grve-post-quote .grve-post-content,
+.grve-post-link .grve-post-content,
+.grve-price,
+.grve-fields .grve-fields-content,
+.grve-portfolio-nav li a:hover,
+.grve-related-post .grve-filter,
+.grve-menu-responsive .grve-menu ul.sub-menu,
+.grve-latest-news li:before,
+.grve-tags li a,
+.grve-social li a,
+.grve-filter li,
+.grve-form-result.active,
+.grve-blog-label .grve-post-wraper ,
+.grve-smallteam-item,
+th,
+.grve-pagination li a,
+.grve-mobile td:first-child,
+tbody tr:hover,
+code ,
+input[type='text'],
+input[type='input'],
+input[type='password'],
+input[type='email'],
+input[type='number'],
+input[type='url'],
+input[type='tel'],
+input[type='search'],
+textarea {
+	background-color: #fff;
+}
+
+
+/*-- Heading Colors --*/
+.grve-main-content h1,
+.grve-main-content h2,
+.grve-main-content h3,
+.grve-main-content h4,
+.grve-main-content h5,
+.grve-main-content h6,
+.grve-sidebar h1,
+.grve-sidebar h2,
+.grve-sidebar h3,
+.grve-sidebar h4,
+.grve-sidebar h5,
+.grve-sidebar h6,
+.grve-post-title,
+.grve-box-title,
+.grve-portfolio-title a,
+.grve-blog-label a .grve-post-title,
+.grve-accordion.grve-style-1 .grve-title.active,
+.grve-team-content .grve-team-name,
+.grve-smallteam-item .grve-team-name  {
+	color: #000000;
+}
+
+
+/*-- Text Color --*/
+body,
+.grve-pagination li a,
+.grve-single-post .grve-post-meta a,
+.grve-custom-nav  ul  li a,
+.grve-latest-news li:before,
+.grve-search-btn ,
+.grve-archives a,
+.grve-tags li a,
+.grve-categories a,
+.grve-portfolio-nav li a,
+.grve-blog-label a .grve-post-date,
+.grve-smallteam-item .grve-team-description,
+.grve-smallteam-item .grve-smallteam-social li a,
+#grve-theme-body .grve-social li a,
+blockquote.grve-style-2:before {
+	color:#666666;
+}
+
+/* Feature Section */
+#grve-feature-section {
+	background-color: #000;
+}
+
+/* Hovers */
+.grve-team-social {
+	background-color: #f6f6f6;
+}
+
+.grve-mask  {
+	background-color: #1c2730;
+}
+
+/* Overlay */
+.grve-white-overlay:before {
+	background-color: #fff;
+}
+
+.grve-black-overlay:before {
+	background-color: #000;
+}
+
+.grve-primary-overlay:before {
+	background-color: #24D1C4;
+}
+
+.grve-secondary-overlay:before{
+	background-color: #1c2730;
+}
+
+/* Icons Box */
+.grve-icon-box .grve-icon,
+.grve-icon-box-small .grve-icon {
+	color: #24D1C4;
+}
+
+.grve-icon-box:hover .grve-box-title,
+.grve-icon-box-small:hover .grve-box-title{
+	color: #24D1C4;
+}
+
+
+.grve-icon-box .grve-icon {
+	border-color: #e9e9e9;
+}
+
+
+/*-- Footer --*/
+footer {
+	background-color: #111010;
+	color: #fff;
+}
+
+/*-- Text Color --*/
+footer .grve-latest-news .grve-title,
+footer .grve-second-menu li a,
+footer .grve-popular-post .grve-title,
+footer .grve-tags a,
+footer .grve-latest-news li:before,
+footer .grve-widget.grve-social li a,
+footer .grve-archives a,
+footer .grve-categories a{
+	color:#fff !important;
+}
+
+/*-- Primary Text Color --*/
+footer .grve-latest-news .grve-title:hover,
+footer .grve-second-menu li a:hover,
+footer .grve-popular-post .grve-title:hover,
+footer .grve-archives a:hover,
+footer .grve-categories a:hover{
+	color:#24D1C4  !important;
+}
+
+/*-- Primary Background Hover--*/
+footer .grve-tags li a:hover,
+footer .grve-social li a:hover{
+	background-color: #24D1C4   !important;
+	color: #fff;
+	opacity: 1;
+}
+
+/* Borders */
+footer .grve-latest-news li,
+footer .grve-latest-news li:before,
+footer .grve-popular-post li,
+footer .grve-second-menu li,
+footer .grve-custom-nav  ul  li,
+footer .grve-custom-nav .submenu,
+footer .grve-tags li a,
+footer .grve-social li a,
+footer .grve-search-btn,
+footer .grve-archives li ,
+footer .grve-categories li ,
+footer .grve-contact-info li,
+footer .grve-widget.grve-comments li {
+	border-color: rgba(255,255,255,0.04) !important;
+}
+
+/* Light Background */
+footer .grve-latest-news li:before,
+footer .grve-tags li a,
+#grve-theme-body footer .grve-social li a {
+	background-color: rgba(255,255,255,0.04);
+}
+
+/* Footer Bar & Body */
+.grve-footer-bar,
+.grve-wrapper {
+	background-color: #000000;
+}
+
+
+/**
+ * Color Section 01
+ * ----------------------------------------------------------------------------
+ */
+.grve-color-section-1 {
+	background-color: #1c2730;
+	color: #fff;
+	padding: 60px 0px 30px 0px;
+}
+
+/**
+ * Color Section 02
+ * ----------------------------------------------------------------------------
+ */
+.grve-color-section-2 {
+	background-color: #F3F3F3;
+}
+
+/**
+ * Color Section 03
+ * ----------------------------------------------------------------------------
+ */
+.grve-color-section-3 {
+	background-color: #F34522;
+}
+
+/**
+ * Color Section 04
+ * ----------------------------------------------------------------------------
+ */
+.grve-color-section-4 {
+	background-color: #222222;
+}
+
+/**
+ * Color Section 05
+ * ----------------------------------------------------------------------------
+ */
+.grve-color-section-5 {
+	background-color: #24D1C4;
+}
+
+/**
+ * Color Section 06
+ * ----------------------------------------------------------------------------
+ */
+.grve-color-section-6 {
+	background-color: #9E110B;
+	background-color: #267381;
+}
+
+
+/**
+ * Dark Section
+ * ----------------------------------------------------------------------------
+ */
+.grve-dark-color h1,
+.grve-dark-color h2,
+.grve-dark-color h3,
+.grve-dark-color h4,
+.grve-dark-color h5,
+.grve-dark-color h6 {
+	color: #000;
+}
+
+.grve-dark-color {
+	color: #666666;
+}
+
+/* Breadcrumb */
+.grve-dark-color  .breadcrumb li a,
+.grve-dark-color  .breadcrumb li a:hover {
+	color: #000;
+}
+
+
+/**
+ * Light Section
+ * ----------------------------------------------------------------------------
+ */
+.grve-light-color,
+.grve-light-color h1,
+.grve-light-color h2,
+.grve-light-color h3,
+.grve-light-color h4,
+.grve-light-color h5,
+.grve-light-color h6 {
+	color: #fff;
+}
+
+.grve-light-color .grve-title-line:after,
+.grve-light-color .grve-title-line:before,
+.grve-light-color .grve-title-double-line:after,
+.grve-light-color .grve-title-double-line:before,
+.grve-light-color hr {
+	border-color: rgba(255,255,255,0.5) !important;
+}
+
+
+/* Breadcrumb */
+.grve-light-color  .breadcrumb li a,
+.grve-light-color  .breadcrumb li a:hover  {
+	color: #fff;
+}
